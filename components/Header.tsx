@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Page, NavLink } from '../types';
 import { NAV_LINKS, LOGO_URL } from '../constants';
 import Icon from './Icon';
+import logo from 'living-paraguay/assets/logo-living-paraguay.png'
 
 interface HeaderProps {
   activePage: Page;
