@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Page, NavLink } from '../types';
-import { NAV_LINKS, LOGO_URL } from '../constants';
+import { NAV_LINKS, logo } from '../constants';
 import Icon from './Icon';
 
 interface HeaderProps {
