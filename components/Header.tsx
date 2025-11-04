@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Page, NavLink } from '../types';
 import { NAV_LINKS, logo } from '../constants';
 import Icon from './Icon';
+import logo from 'living-paraguay/assets/logo.png';
 
 interface HeaderProps {
   activePage: Page;
@@ -38,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ activePage, setActivePage }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <button onClick={() => setActivePage('home')} className="flex items-center gap-2 flex-shrink-0">
-            <img src={LOGO_URL} alt="Living Paraguay Logo" className="h-14 w-auto" />
+            <img src={logo} alt="Living Paraguay Logo" className="h-14 w-auto" />
           </button>
 
           {/* Desktop Navigation */}
